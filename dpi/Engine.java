@@ -1,6 +1,6 @@
 package dpi;
 
-class Engine {
+public class Engine {
 
   void start() {}
 }
