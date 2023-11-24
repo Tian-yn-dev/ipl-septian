@@ -1,6 +1,6 @@
 package Formatting;
 
-public class FitnesseExpediter implements ResponseSender {
+public class FitNesseExpediter2 implements ResponseSender{
 	private Socket socket;
 	private InputStream input;
 	private OutputStream output;
@@ -9,7 +9,8 @@ public class FitnesseExpediter implements ResponseSender {
 	private FitNesseContext context;
 	protected long requestParsingTimeLimit;
 	private long requestProgress;
-	private long requestParsingDeadLine;
+	private long requestParsingDeadline;
 	private boolean hasError;
-	...
+	
+...
 }
