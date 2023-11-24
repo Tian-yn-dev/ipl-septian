@@ -1,8 +1,9 @@
 class kelasPengguna {
+   protected String username;
+   protected String password;
 
-  protected String n; //username protected String p; //password
-
-  public void penyimpanan(String n, String p) {
-    // isi code
-  }
+   public void penyimpanan(String username, String 
+       password){ this.username = username;
+       this.password = password;
+   }
 }
